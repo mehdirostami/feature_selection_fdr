@@ -1,13 +1,3 @@
-
-from .barber_candes_selection import BarberCandesSelection
-from .knockoff_features_construction import Knockoff
-from .filter import Filter
-from .models import Model
-from .varimp import KnockVarImp
-from .varimp import DSSVarImp
-
-__all__ = ['BarberCandesSelection', 'Knockoff', 'Filter', 'Model', 'KnockVarImp', 'DSSVarImp']
-
 include README.rst
 inlude LICENSE
 recursive-include tests *
