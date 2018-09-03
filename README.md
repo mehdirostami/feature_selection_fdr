@@ -12,7 +12,7 @@ pip install feature_selection_fdr
 
 
 Requirements:
-ununtu 17, python 2.7
+ubuntu 17, python 2.7
 
 
 ----------------------------------------
