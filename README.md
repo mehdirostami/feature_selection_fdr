@@ -1,6 +1,24 @@
 
 
 Feature Selection with False Discovery Rate Control
+---------------------------------------
+
+
+Installation:
+
+Run the following command in the command line:
+
+pip install feature_selection_fdr
+
+
+Requirements:
+ununtu 17, python 2.7
+
+
+----------------------------------------
+
+
+About the methods and the library:
 
 In the modern statistics, researchers may not fix a hypothesis, rather let the collected data speak for itself and determine what hypotheses can be tested (which features should be selected). This leads to a phenomenon called "cherry picking": in the searches through data, the inputs which describe the observed data well but cannot explain future data will likely be picked.
 
