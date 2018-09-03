@@ -1,4 +1,3 @@
-from __future__ import print_function
 
 import numpy as np 
 from fs_fdr import barber_candes_selection, knockoff_features_construction, utils
