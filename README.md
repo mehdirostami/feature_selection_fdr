@@ -8,7 +8,7 @@ Installation:
 
 Run the following command in the command line:
 
-pip install feature_selection_fdr
+pip install fsfdr
 
 
 Requirements:
