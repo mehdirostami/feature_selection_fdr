@@ -50,9 +50,9 @@ Knockoff (model-X for normal features and fixed-X linear models), MSS, DSS
 
 For classification problems:
 
-{"model":"logistic regression", "params":"plain regression coef"}
-{"model":"logistic regression", "params":"ridge coef"}
-{"model":"logistic regression", "params":"lasso coef"}
+  -- {"model":"logistic regression", "params":"plain regression coef"}
+  -- {"model":"logistic regression", "params":"ridge coef"}
+  -- {"model":"logistic regression", "params":"lasso coef"}
 {"model":"logistic regression", "params":"lasso learning rate"}
 {"model":"random forest", "params":"classification fi"}
 {"model":"tree", "params":"classification fi"}
