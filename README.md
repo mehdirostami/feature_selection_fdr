@@ -50,36 +50,36 @@ Knockoff (model-X for normal features and fixed-X linear models), MSS, DSS
 
 For classification problems:
 
-  * {"model":"logistic regression", "params":"plain regression coef"}
-  * {"model":"logistic regression", "params":"ridge coef"}
-  * {"model":"logistic regression", "params":"lasso coef"}
-{"model":"logistic regression", "params":"lasso learning rate"}
-{"model":"random forest", "params":"classification fi"}
-{"model":"tree", "params":"classification fi"}
-{"model":"gradient boosting", "params":"classification fi"}
-{"model":"svm", "params":"classification coef"}
+ * {"model":"logistic regression", "params":"plain regression coef"}
+ * {"model":"logistic regression", "params":"ridge coef"}
+ * {"model":"logistic regression", "params":"lasso coef"}
+	* {"model":"logistic regression", "params":"lasso learning rate"}
+	* {"model":"random forest", "params":"classification fi"}
+	* {"model":"tree", "params":"classification fi"}
+	* {"model":"gradient boosting", "params":"classification fi"}
+	* {"model":"svm", "params":"classification coef"}
 
 For regression problems:
 
-{"model":"linear regression", "params":"plain regression coef"}
-{"model":"linear regression", "params":"ridge coef"}
-{"model":"linear regression", "params":"lasso coef"}
-{"model":"linear regression", "params":"lasso learning rate"}
-{"model":"linear regression", "params":"forward selection coef"}
-{"model":"random forest", "params":"regression fi"}
-{"model":"tree", "params":"regression fi"}
-{"model":"gradient boosting", "params":"regression fi"}
-{"model":"svm", "params":"regression coef"}
+  * {"model":"linear regression", "params":"plain regression coef"}
+  * {"model":"linear regression", "params":"ridge coef"}
+  * {"model":"linear regression", "params":"lasso coef"}
+  * {"model":"linear regression", "params":"lasso learning rate"}
+  * {"model":"linear regression", "params":"forward selection coef"}
+  * {"model":"random forest", "params":"regression fi"}
+  * {"model":"tree", "params":"regression fi"}
+  * {"model":"gradient boosting", "params":"regression fi"}
+  * {"model":"svm", "params":"regression coef"}
 
 
 3) Optimization methods for knockoff features constructions:
 
-optimization = ["ASDP", "selfblocks", 50, 50] 
-optimization = "ASDP"######## with "selfblocks", 50, 50 as default for method of matrix approximation, threshold for use of ASDP and block sizes for the approximation.
-optimization = ["ASDP", "cluster", 50, 50]
-optimization = "SDP"
-optimization = "samplecorr"
-optimization = "min_eigenvalue"
+	* optimization = ["ASDP", "selfblocks", 50, 50] 
+	* optimization = "ASDP"######## with "selfblocks", 50, 50 as default for method of matrix approximation, threshold for use of ASDP and block sizes for the approximation.
+	* optimization = ["ASDP", "cluster", 50, 50]
+	* optimization = "SDP"
+	* optimization = "samplecorr"
+	* optimization = "min_eigenvalue"
 
 
 4) Splitting the data for DSS and MSS can be done in a few ways:
